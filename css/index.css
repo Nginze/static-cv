@@ -18,6 +18,7 @@
 
 body {
   overflow-x: hidden;
+  background-image: url('/assets/Colored\ Patterns.svg');
 }
 
 /* class selectors */
@@ -88,6 +89,7 @@ body {
 
 .resume-info div span {
   color: var(--sub);
+  font-weight: 330;
 }
 .resume-info div {
   font-size: 0.8rem;
@@ -253,6 +255,16 @@ body {
   color: var(--sub);
 }
 
-.uni-name{
+.uni-name {
   font-weight: 420;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interest span {
+  font-size: 1rem;
 }
